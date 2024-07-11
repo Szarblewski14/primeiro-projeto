@@ -18,7 +18,7 @@ Programa feito por: Leonardo Szarblewski, gratuito
 <br>
 
 <p align="center">
-  <img alt="Projeto Leonardo Szarblewski" src="./.github/Cover.jpg" width="100%">
+  <img alt="Projeto Leonardo Szarblewski" src=".github/Cover2.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -31,7 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ## 💻 Projeto
-  Projeto feito por: Leonardo Szarblewski
+
+Projeto feito por: Leonardo Szarblewski
 
 O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
 
