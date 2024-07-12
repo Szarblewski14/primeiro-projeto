@@ -91,13 +91,18 @@ body * {
   left: 0;
   z-index: 1;
   transform: translatey(-50%);
+  animation: botao-voltando .3s;
 }
 
 /*botao modo light*/
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: botao-indo .3s forwards;
   border: 1px solid var(--stroke-color);
+}
+
+/* ao passar o mouse em cima */
+#switch button:hover {
+  outline: 8px solid var(--lite-color);
 }
 
 /*criando o tracker */
@@ -183,5 +188,23 @@ footer {
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animação do botao indo e voltando */
+@keyframes botao-indo {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+@keyframes botao-voltando {
+  from{
+    left: 50%;
+  }
+  to{
+    left: 0;  
   }
 }
